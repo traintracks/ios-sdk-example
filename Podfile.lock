@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Traintracks:
-    :commit: a3369157ae8a98a20c642693dfd176b2f24db045
+    :commit: 85712cad0deb6ea3aa24afd9c4c73836185aea73
     :git: git@github.com:mentionllc/traintracks-ios-sdk.git
 
 SPEC CHECKSUMS:
