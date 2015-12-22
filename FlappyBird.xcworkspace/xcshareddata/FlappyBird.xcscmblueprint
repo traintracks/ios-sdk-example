@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6917724A5540354287E66C785DDF08E7A7EDACEA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6917724A5540354287E66C785DDF08E7A7EDACEA" : 0,
+    "19A3669338FB669BED27E01E6B1C50BCB1C8206F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B57231D8-DF92-4D8B-9A6A-17732FCFD6DF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6917724A5540354287E66C785DDF08E7A7EDACEA" : "FlappySwift\/",
+    "19A3669338FB669BED27E01E6B1C50BCB1C8206F" : "traintracks-ios-sdk\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FlappyBird",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FlappyBird.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mentionllc\/traintracks-ios-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "19A3669338FB669BED27E01E6B1C50BCB1C8206F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fullstackio\/FlappySwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6917724A5540354287E66C785DDF08E7A7EDACEA"
+    }
+  ]
+}
