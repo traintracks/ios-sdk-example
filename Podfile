@@ -4,7 +4,7 @@
 use_frameworks!
 
 target 'FlappyBird' do
-    pod 'Traintracks', :git => 'git@github.com:mentionllc/traintracks-ios-sdk.git'
+    pod 'Traintracks', :git => 'https://github.com/traintracks/ios-sdk.git'
 end
 
 target 'FlappyBirdTests' do

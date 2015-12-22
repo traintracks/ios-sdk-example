@@ -7,7 +7,7 @@ The application is based on [https://github.com/fullstackio/FlappySwift] and rec
 # Setup with CocoaPods 
 Add this to your podfile
 ```
-pod 'Traintracks', :git => 'git@github.com:mentionllc/traintracks-ios-sdk.git'
+pod 'Traintracks', :git => 'https://github.com/traintracks/ios-sdk.git'
 ```
 
 In every file that uses analytics, import Traintracks.h at the top:
