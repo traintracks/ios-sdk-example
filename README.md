@@ -13,7 +13,7 @@ pod 'Traintracks', :git => 'git@github.com:mentionllc/traintracks-ios-sdk.git'
 
 In every file that uses analytics, import Traintracks.h at the top:
  ``` swift 
- #import Traintracks
+import Traintracks
  ```
 
 In the application:didFinishLaunchingWithOptions: method of your YourAppNameAppDelegate.m file, initialize the SDK:
