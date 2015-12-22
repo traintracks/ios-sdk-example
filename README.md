@@ -43,13 +43,11 @@ A session is a period of time that a user has the app in the foreground. Session
 You can adjust the time window for which sessions are extended by changing the variable minTimeBetweenSessionsMillis:
 ``` objective-c
 [Traintracks instance].minTimeBetweenSessionsMillis = 30 * 60 * 1000; // 30 minutes
-[[Traintracks instance] initializeApiKey:@"YOUR_API_KEY_HERE"];
 ```
 
-By default start and end session events are no longer sent. To renable add this line before initializing the SDK:
+By default start and end session events are not sent. To enable add this line before initializing the SDK:
 ``` objective-c
 [[Traintracks instance] trackingSessionEvents:YES];
-[[Traintracks instance] initializeApiKey:@"YOUR_API_KEY_HERE"];
 ```
 
 You can also log events as out of session. Out of session events have a session_id of -1 and are not considered part of the current session, meaning they do not extend the current session. You can log events as out of session by setting input parameter outOfSession to true when calling logEvent.
