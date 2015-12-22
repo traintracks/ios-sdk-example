@@ -1,4 +1,3 @@
-====================
 # ios-sdk-example
 
 This is an example project on how to use the iOS SDK.
