@@ -58,24 +58,6 @@ You can also log events as out of session. Out of session events have a session_
 [[Traintracks instance] logEvent:@"EVENT_IDENTIFIER_HERE" withEventProperties:nil outOfSession:true];
 ```
 
-# Setting Custom User IDs #
-
-If your app has its own login system that you want to track users with, you can call `setUserId:` at any time:
-
-``` objective-c
-[[Traintracks instance] setUserId:@"USER_ID_HERE"];
-```
-
-You can also clear the user ID by calling `setUserId` with input `nil`. Events without a user ID are anonymous.
-
-A user's data will be merged on the backend so that any events up to that point on the same device will be tracked under the same user.
-
-You can also add the user ID as an argument to the `initializeApiKey:` call:
-
-``` objective-c
-[[Traintracks instance] initializeApiKey:@"YOUR_API_KEY_HERE" userId:@"USER_ID_HERE"];
-```
-
 # Setting Event Properties #
 
 You can attach additional data to any event by passing a NSDictionary object as the second argument to logEvent:withEventProperties:
