@@ -18,9 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     {
         Traintracks.instance().initializeWithEndpoint("https://api.traintracks.io/v1/events",
             withBuildName: "2.3.2",
-            withKey: "YOUR_KEY_HERE",
-            withSecret: "YOUR_SECRET_HERE",
-            withUserId: "YOUR_USER_ID_HERE")
+            withKey: "f9a7600b-9677-483b-9697-4a68f759cb21",
+            withSecret: "d9419951-2f8b-4bf6-9ab0-6f0075afad03",
+            withUserId: "TED_TESTING_AGAIN")
         Traintracks.instance().logEvent("FLAPPY_BIRD_LAUNCHED")
         return true
     }

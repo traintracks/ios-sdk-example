@@ -6,16 +6,16 @@ PODS:
     - FMDB/standard (~> 2.5)
 
 DEPENDENCIES:
-  - Traintracks (from `git@github.com:mentionllc/traintracks-ios-sdk.git`)
+  - Traintracks (from `https://github.com/traintracks/ios-sdk.git`)
 
 EXTERNAL SOURCES:
   Traintracks:
-    :git: git@github.com:mentionllc/traintracks-ios-sdk.git
+    :git: https://github.com/traintracks/ios-sdk.git
 
 CHECKOUT OPTIONS:
   Traintracks:
     :commit: 85712cad0deb6ea3aa24afd9c4c73836185aea73
-    :git: git@github.com:mentionllc/traintracks-ios-sdk.git
+    :git: https://github.com/traintracks/ios-sdk.git
 
 SPEC CHECKSUMS:
   FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
